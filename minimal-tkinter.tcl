@@ -1,9 +1,9 @@
 package require Tk 8.6
 
-namespace eval ttk::theme::MinimalTkinter {
-	package provide ttk::theme::MinimalTkinter 1.0
+namespace eval ttk::theme::minimal-tkinter {
+	package provide ttk::theme::minimal-tkinter 1.0
 
-	ttk::style theme create MinimalTkinter -parent clam -settings {
+	ttk::style theme create minimal-tkinter -parent clam -settings {
 		variable images
 		set imgdir [file join [file dirname [info script]] .]
 
